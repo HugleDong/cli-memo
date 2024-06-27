@@ -1,9 +1,8 @@
 # 压缩图片
 ```sh
 magick input.png -resize 800x600 -quality 92 output.jpg
-```
-resize 格式
-```sh
+
+# resize 格式
 "200%" # 放大2倍
 "200x50%" # 200px宽，高度缩放为50% 
 "200" # 宽度200px，高度按比例缩放
@@ -11,6 +10,7 @@ resize 格式
 "200x100" # 按比例缩放到目标尺寸200px*100px，取目标尺寸宽高中较大值
 "200x100^" # 按比例缩放到目标尺寸200px*100px，取目标尺寸宽高中较小值
 "200x100!" # 按缩放到目标尺寸200px*100px，宽高比例可能变化
+# 参考
 # https://imagemagick.org/script/command-line-processing.php#:~:text=the%20geometry%20argument.-,size,-General%20description%20(actual
 ```
 
